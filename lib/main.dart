@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
             "Counter: $counter ",
             style: const TextStyle(
               color: Colors.amber,
-              fontSize: 60,
+              fontSize: 30,
               fontFamily: 'LeagueGothic',
             ),
           ),
@@ -73,7 +73,7 @@ class _HomeState extends State<Home> {
             "Rolls : $rb ",
             style: const TextStyle(
               color: Colors.amber,
-              fontSize: 40,
+              fontSize: 20,
               fontFamily: 'LeagueGothic',
             ),
           ),
@@ -127,8 +127,8 @@ class _HomeState extends State<Home> {
               ),
             ),
           )
-              : const SizedBox(height: 40),
-          const SizedBox(height: 50),
+              : const SizedBox(height: 10),
+          const SizedBox(height: 10),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -151,14 +151,14 @@ class _HomeState extends State<Home> {
                   child: Text(
                     'Life : $life',
                     style: const TextStyle(
-                      fontSize: 60,
+                      fontSize: 40,
                       fontFamily: 'LeagueGothic',
                     ),
                   ),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(70, 0, 0, 0),
+                padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     foregroundColor: Colors.grey[900], backgroundColor: Colors.amber, // foreground
@@ -175,7 +175,7 @@ class _HomeState extends State<Home> {
                   child: const Text(
                     'Roll !',
                     style: TextStyle(
-                      fontSize: 60,
+                      fontSize: 40,
                       fontFamily: 'LeagueGothic',
                     ),
                   ),
